@@ -21,14 +21,14 @@ import (
 
 	"github.com/bmizerany/pat"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/monitor"
-	"github.com/influxdata/influxdb/monitor/diagnostics"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/uuid"
+	"github.com/lucaswiersma/influxdb"
+	"github.com/lucaswiersma/influxdb/influxql"
+	"github.com/lucaswiersma/influxdb/models"
+	"github.com/lucaswiersma/influxdb/monitor"
+	"github.com/lucaswiersma/influxdb/monitor/diagnostics"
+	"github.com/lucaswiersma/influxdb/services/meta"
+	"github.com/lucaswiersma/influxdb/tsdb"
+	"github.com/lucaswiersma/influxdb/uuid"
 	"github.com/uber-go/zap"
 )
 

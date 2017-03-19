@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/escape"
-	internal "github.com/influxdata/influxdb/tsdb/internal"
+	"github.com/lucaswiersma/influxdb/influxql"
+	"github.com/lucaswiersma/influxdb/models"
+	"github.com/lucaswiersma/influxdb/pkg/escape"
+	internal "github.com/lucaswiersma/influxdb/tsdb/internal"
 
 	"github.com/gogo/protobuf/proto"
 )

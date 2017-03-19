@@ -1,6 +1,6 @@
 package tsm1
 
-import "github.com/influxdata/influxdb/pkg/pool"
+import "github.com/lucaswiersma/influxdb/pkg/pool"
 
 var bufPool = pool.NewBytes(10)
 

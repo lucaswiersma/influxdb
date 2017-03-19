@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
+	"github.com/lucaswiersma/influxdb/influxql"
 )
 
 func BenchmarkQuery_String(b *testing.B) {
@@ -1048,8 +1048,8 @@ func TestParseString(t *testing.T) {
 		{
 			stmt: `DROP CONTINUOUS QUERY "my query" ON "my database"`,
 		},
-		// See issues https://github.com/influxdata/influxdb/issues/1647
-		// and https://github.com/influxdata/influxdb/issues/4404
+		// See issues https://github.com/lucaswiersma/influxdb/issues/1647
+		// and https://github.com/lucaswiersma/influxdb/issues/4404
 		//{
 		//	stmt: `DELETE FROM "my db"."my rp"."my measurement"`,
 		//},

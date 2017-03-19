@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/lucaswiersma/influxdb/models"
 )
 
 // ResponseWriter is an interface for writing a response.

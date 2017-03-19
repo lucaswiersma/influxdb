@@ -1,6 +1,6 @@
 // Package monitor provides a service and associated functionality
 // for InfluxDB to self-monitor internal statistics and diagnostics.
-package monitor // import "github.com/influxdata/influxdb/monitor"
+package monitor // import "github.com/lucaswiersma/influxdb/monitor"
 
 import (
 	"errors"
@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/monitor/diagnostics"
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/lucaswiersma/influxdb/models"
+	"github.com/lucaswiersma/influxdb/monitor/diagnostics"
+	"github.com/lucaswiersma/influxdb/services/meta"
 	"github.com/uber-go/zap"
 )
 

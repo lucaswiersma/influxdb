@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/lucaswiersma/influxdb/models"
 )
 
 // Minimum and maximum supported dates for timestamps.

@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/deep"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/lucaswiersma/influxdb/influxql"
+	"github.com/lucaswiersma/influxdb/models"
+	"github.com/lucaswiersma/influxdb/pkg/deep"
+	"github.com/lucaswiersma/influxdb/tsdb"
+	"github.com/lucaswiersma/influxdb/tsdb/engine/tsm1"
 )
 
 // Ensure engine can load the metadata index after reopening.

@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/influxql"
+	"github.com/lucaswiersma/influxdb"
+	"github.com/lucaswiersma/influxdb/influxql"
 	"github.com/uber-go/zap"
 
 	"golang.org/x/crypto/bcrypt"

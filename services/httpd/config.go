@@ -1,6 +1,6 @@
 package httpd
 
-import "github.com/influxdata/influxdb/monitor/diagnostics"
+import "github.com/lucaswiersma/influxdb/monitor/diagnostics"
 
 const (
 	// DefaultBindAddress is the default address to bind to.

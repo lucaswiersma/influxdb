@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	internal "github.com/influxdata/influxdb/influxql/internal"
+	internal "github.com/lucaswiersma/influxdb/influxql/internal"
 )
 
 // DataType represents the primitive data types available in InfluxQL.

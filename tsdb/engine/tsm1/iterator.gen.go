@@ -11,8 +11,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/influxdata/influxdb/influxql"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/lucaswiersma/influxdb/influxql"
+	"github.com/lucaswiersma/influxdb/tsdb"
 )
 
 type cursor interface {

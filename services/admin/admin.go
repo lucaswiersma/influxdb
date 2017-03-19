@@ -1,4 +1,4 @@
-package admin // import "github.com/influxdata/influxdb/services/admin"
+package admin // import "github.com/lucaswiersma/influxdb/services/admin"
 
 //go:generate statik -src=assets
 //go:generate go fmt statik/statik.go
