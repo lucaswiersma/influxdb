@@ -17,7 +17,7 @@ import (
 	"github.com/lucaswiersma/influxdb/influxql"
 	"github.com/lucaswiersma/influxdb/models"
 	"github.com/lucaswiersma/influxdb/pkg/limiter"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 var (

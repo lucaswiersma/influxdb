@@ -15,7 +15,7 @@ import (
 	"github.com/lucaswiersma/influxdb/models"
 	"github.com/lucaswiersma/influxdb/services/meta"
 	"github.com/lucaswiersma/influxdb/toml"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 func TestService_OpenClose(t *testing.T) {

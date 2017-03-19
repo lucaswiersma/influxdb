@@ -10,7 +10,7 @@ import (
 
 	"github.com/lucaswiersma/influxdb/models"
 	"github.com/lucaswiersma/influxdb/tsdb"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // ringShards specifies the number of partitions that the hash ring used to

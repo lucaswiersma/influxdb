@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/lucaswiersma/influxdb/models"
-	"go.uber.org/zap" 
+	"go.uber.org/zap"
 )
 
 const (

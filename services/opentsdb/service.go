@@ -19,7 +19,7 @@ import (
 	"github.com/lucaswiersma/influxdb/models"
 	"github.com/lucaswiersma/influxdb/services/meta"
 	"github.com/lucaswiersma/influxdb/tsdb"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 // statistics gathered by the openTSDB package.

@@ -20,7 +20,7 @@ import (
 	"github.com/lucaswiersma/influxdb/influxql"
 	"github.com/lucaswiersma/influxdb/models"
 	"github.com/lucaswiersma/influxdb/tsdb"
-	"github.com/uber-go/zap"
+	"go.uber.org/zap"
 )
 
 //go:generate tmpl -data=@iterator.gen.go.tmpldata iterator.gen.go.tmpl
